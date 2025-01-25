@@ -27,4 +27,9 @@ image = local_image("children_room_3.jpg")
 
 prompt = "Crea un mejor diseño para este cuarto. interior design, 4K, high resolution, elegant, tastefully decorated, functional"
 images = pipe(prompt, image=image, num_inference_steps=10, image_guidance_scale=1).images
-images[0]
+try:
+	print(1)
+	images.save("o.png")
+except:
+	print(2)
+	images[0].save("o.png")
