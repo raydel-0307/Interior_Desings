@@ -4,8 +4,8 @@ Este proyecto proporciona una interfaz sencilla para entrenar y utilizar modelos
 
 
 <div style="display: flex;">
-    <img src="resources/input.jpg" alt="Input" style="width: 40%; margin-right: 20px;">
-    <img src="resources/output.jpg" alt="Output" style="width: 30%; margin-right: 20px;">
+    <img src="resources/input.jpg" alt="Input" style="width: 20%; margin-right: 20px;">
+    <img src="resources/output.jpg" alt="Output" style="width: 20%; margin-right: 20px;">
 </div>
 
 Input: Add a sofa and furnish with furniture
@@ -25,7 +25,7 @@ Antes de empezar, necesitarás tener instalado lo siguiente:
 
 *   **Python 3.7+**
 *   **Bibliotecas requeridas**:
-    *   `diffusers`: Para cargar y usar modelos de difusión.
+    * `PyTorch`: Ejecute este comando `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 
 Puedes instalar todas las dependencias necesarias ejecuta: `pip install -r requirements.txt`
 

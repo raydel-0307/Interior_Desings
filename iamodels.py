@@ -1,7 +1,7 @@
 from diffusers import DiffusionPipeline
 import time
 from metrics import get_time
-
+import pickle
 
 def TrainModel(dir_path,model_name):
 
