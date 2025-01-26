@@ -2,6 +2,7 @@ from diffusers import DiffusionPipeline
 import time
 from metrics import get_time
 import pickle
+import os
 
 def TrainModel(dir_path,model_name):
 
@@ -36,7 +37,7 @@ def MainModel(dir_path,prompt,image_path,output_path,settings):
 		if "bed " not in prompt:
 			prompt += ", with a twin bed against the wall"
 
-	pos_prompt = prompt + f", {config['additional_quality_suffix']}"
+	pos_prompt = prompt + f", {settings['additional_quality_suffix']}"
 
 	image = pipe(
 		prompt=pos_prompt,
