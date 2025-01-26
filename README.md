@@ -2,6 +2,16 @@
 
 Este proyecto proporciona una interfaz sencilla para entrenar y utilizar modelos de diseño de interiores
 
+
+```markdown
+<div style="display: flex;">
+    <img src="resources/input.jpg" alt="Input" style="width: 40%; margin-right: 20px;">
+    <img src="resources/output.jpg" alt="Output" style="width: 40%;">
+</div>
+
+Input: Add a sofa and furnish with furniture
+```
+
 ## Descripción General
 
 El proyecto consta de dos funciones principales:
