@@ -1,0 +1,14 @@
+{
+	"model_name":"SG161222/Realistic_Vision_V3.0_VAE",
+	"prompt":"Add a sofa and furnish with furniture",
+	"image_path":"025/children_room_3.jpg",
+	"output_path":"025/ref_children_room_3.jpg",
+	"settings":{
+		"negative_prompt":"lowres, watermark, banner, logo, watermark, contactinfo, text, deformed, blurry, blur, out of focus, out of frame, surreal, extra, ugly, upholstered walls, fabric walls, plush walls, mirror, mirrored, functional, realistic",
+		"additional_quality_suffix":"interior design, 4K, high resolution, elegant, tastefully decorated, functional",
+		"num_inference_steps":20,
+		"guidance_scale":15,
+		"prompt_strength":0.8,
+		"seed":null
+	}
+}
