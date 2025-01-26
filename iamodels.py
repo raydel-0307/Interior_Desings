@@ -49,7 +49,7 @@ def MainModel(dir_path,prompt,image_path,output_path,settings):
 		seed=settings["seed"]
 	).images[0]
 
-	image.save[output_path]
+	image.save(output_path)
 
 	print(f"Imagen exportada '{output_path}'")
 
