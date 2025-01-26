@@ -5,7 +5,7 @@ Este proyecto proporciona una interfaz sencilla para entrenar y utilizar modelos
 
 <div style="display: flex;">
     <img src="resources/input.jpg" alt="Input" style="width: 40%; margin-right: 20px;">
-    <img src="resources/output.jpg" alt="Output" style="width: 40%;">
+    <img src="resources/output.jpg" alt="Output" style="width: 30%; margin-right: 20px;">
 </div>
 
 Input: Add a sofa and furnish with furniture
